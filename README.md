@@ -80,10 +80,10 @@ FAQ and troubleshooting help can be found in the [Wikis](https://github.com/revo
 
 ```BASH
 sudo apt update
-sudo apt install python3 python3-pip git python3-pil python3-pil.imagetk -y # Install dependencies
-git clone https://github.com/revoxhere/duino-coin # Clone Duino-Coin repository
+sudo apt install python3 python3-pip git python3-pil python3-pil.imagetk -y 
+git clone https://github.com/revoxhere/duino-coin
 cd duino-coin
-python3 -m pip install -r requirements.txt # Install pip dependencies
+python3 -m pip install -r requirements.txt
 ````
 
 After doing this, you are good to go with launching the software (e.g. `python3 PC_Miner.py`).
