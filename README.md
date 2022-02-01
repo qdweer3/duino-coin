@@ -84,6 +84,7 @@ sudo apt install python3 python3-pip git python3-pil python3-pil.imagetk -y
 git clone https://github.com/revoxhere/duino-coin
 cd duino-coin
 python3 -m pip install -r requirements.txt
+python3 PC_Miner.py
 ````
 
 After doing this, you are good to go with launching the software (e.g. `python3 PC_Miner.py`).
